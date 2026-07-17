@@ -1,321 +1,541 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <title>ksm495</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="src/css/style.css">
+	<title>ksm495</title>
 </head>
+
 <body class="body">
-    
-    <!--Header-->
-
-    <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="header__top-gps"><svg class="icon" width="18" height="22"><use href="src/images/sprite.svg#gps"></use></svg><a href="#" class="link header__top-link semibold">Москва</a><span class="header__top-adress medium">ул. Свободы, д.31, строение 1</span></div>
-                    <div class="header__top-contacts">
-                        <div class="header__contact-item">
-                            <p class="header__contact-text">Поиск</p><svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#search"></use></svg>
-                        </div>
-                        <div class="header__contact-item">
-                            <a href="mailto:ksm495@bk.ru" class="link medium">ksm495@bk.ru</a><svg class="icon" width="22" height="18"><use href="src/images/sprite.svg#mail"></use></svg>
-                        </div>
-                        <div class="header__contact-item">
-                            <a href="tel:84951048668" class="link semibold">8 (495) 104 86 68</a><svg class="icon" width="23" height="23"><use href="src/images/sprite.svg#phone"></use></svg>
-                        </div>
-                        <div class="header__contact-item">
-                            <p class="link semibold">Войти</p><svg class="icon" width="24" height="24"><use href="src/images/sprite.svg#enter"></use></svg>
-                        </div>
-                        <div class="header__contact-item">
-                            <p class="link semibold">Сравнение</p><svg class="icon" width="18" height="22"><use href="src/images/sprite.svg#graph"></use></svg>
-                        </div>
-                        <div class="header__contact-item">
-                            <p class="link semibold">Корзина</p><svg class="icon" width="22" height="21"><use href="src/images/sprite.svg#cart"></use></svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header__bottom">
-            <div class="container">
-                <div class="wrapper">
-                    <a href="/" class="logo"><img src="src/images/logo.svg" alt="" class="logo__image"></a>
-                    <nav class="header__bottom-nav">
-                        <a href="#" class="header__nav-link">Кирпич<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a>
-                        <a href="#" class="header__nav-link">Стройматериалы<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a>
-                        <a href="#" class="header__nav-link">Камины</a>
-                        <a href="#" class="header__nav-link">Компания<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a>
-                        <a href="#" class="header__nav-link">Архитектура<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a>
-                        <a href="#" class="header__nav-link">Контакты<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a>
-
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <div class="breadcumber">
-            <div class="container">
-                <div class="wrapper">
-                    <a href="/" class="breadcumber-link">Главная</a><span class="breadcumber-separate" >/</span><a href="/" class="breadcumber-link">Выставка кирпича</a><span class="breadcumber-separate" >/</span><a href="/" class="breadcumber-link active">Завод "ТАНДЕМ" LS045 Нордъ</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!--Content-->
-
-    <main class="main">
-        <section class="hero">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="hero__text">
-                        <h1 class="title">Премиальные окна <br>и двери из Беларуси</h1>
-                        <p class="subtitle">Окна и двери премиального класса под ключ-от замера <br>до монтажа, гарантия до 15 лет.</p>
-                        <button class="btn btn--primary">Оставить заявку</button>
-                    </div>
-                    <div class="hero__image">
-                        <img src="src/images/video.png" alt="" class="video">
-                        <div class="btn btn--play"><svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#play"></use></svg></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="more__projects">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="more__projects-text">
-                        <h2 class="title">Наши работы</h2>
-                        <div class="more__project-nav">
-                            <button class="btn btn--slider btn--prev"><svg class="icon" width="6" height="9"><use href="src/images/sprite.svg#arrow__slider-prev"></use></svg></button>
-                            <button class="btn btn--slider btn--next"><svg class="icon" width="6" height="9"><use href="src/images/sprite.svg#arrow__slider-next"></use></svg></button>
-                        </div>
-                    </div>
-                    <div class="more__projects-slider">
-                        <div class="more__projects-item">
-                            <div class="more__project-image">
-                                <img src="src/images/slider-item-1.png" alt="">
-                                <div class="more__projects-nav">
-                                    <button class="btn btn--more btn--prev"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__prev"></use></svg></button>
-                                    <button class="btn btn--more btn--next"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__next"></use></svg></button>
-                                </div>
-                                <div class="more__project-dots">
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot active"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                </div>
-                            </div>
-                            <div class="more__roject-text">
-                                <p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
-                                <p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
-                            </div>
-                        </div>
-                        <div class="more__projects-item">
-                            <div class="more__project-image">
-                                <img src="src/images/slider-item-2.png" alt="">
-                                <div class="more__projects-nav">
-                                    <button class="btn btn--more btn--prev"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__prev"></use></svg></button>
-                                    <button class="btn btn--more btn--next"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__next"></use></svg></button>
-                                </div>
-                                <div class="more__project-dots">
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot active"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                </div>
-                            </div>
-                            <div class="more__roject-text">
-                                <p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
-                                <p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
-                            </div>
-                        </div>
-                        <div class="more__projects-item">
-                            <div class="more__project-image">
-                                <img src="src/images/slider-item-1.png" alt="">
-                                <div class="more__projects-nav">
-                                    <button class="btn btn--more btn--prev"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__prev"></use></svg></button>
-                                    <button class="btn btn--more btn--next"><svg class="icon" width="4" height="6"><use href="src/images/sprite.svg#arrow__next"></use></svg></button>
-                                </div>
-                                <div class="more__project-dots">
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot active"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                    <div class="more__projects-dot"></div>
-                                </div>
-                            </div>
-                            <div class="more__roject-text">
-                                <p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
-                                <p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="feedback">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="feedback__content">
-                        <div class="feedback__content-hero">
-                            <p class="feedback__hero-text">Обратная связь</p>
-                            <img src="src/images/feedback__content.png" alt="" class="feedback__hero-image">
-                        </div>
-                        <div class="feedback__content-text">
-                            <h2 class="feedback__content-title">Нужна <br>консультация?</h2>
-                            <p class="feedback__content-subtitle">Подробно расскажем о наших услугах, видах работ и типовых проектах, рассчитаем стоимость и подготовим индивидуальное предложение!</p>
-                            <button class="btn btn--primary">К продукции</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="feedback">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="feedback__content">
-                        <div class="feedback__content-hero">
-                            <p class="feedback__hero-text">Обратная связь</p>
-                            <img src="src/images/feedback__content.png" alt="" class="feedback__hero-image">
-                        </div>
-                        <div class="feedback__content-text">
-                            <h2 class="feedback__content-title">Нужна <br>консультация?</h2>
-                            <p class="feedback__content-subtitle">Подробно расскажем о наших услугах, видах работ и типовых проектах, рассчитаем стоимость и подготовим индивидуальное предложение!</p>
-                            <button class="btn btn--primary">К продукции</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main> 
-
-    <!--Footer-->
-
-    <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="wrapper">
-                <div class="footer-top">
-                    <nav class="footer-column" aria-label="Облицовочный кирпич">
-                        <h4 class="footer-title">Облицовочный кирпич</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Щелевой кирпич</a></li>
-                            <li><a href="#">Клинкерный кирпич</a></li>
-                            <li><a href="#">Керамический кирпич</a></li>
-                            <li><a href="#">Кирпич ручной работы</a></li>
-                            <li><a href="#">Кирпич ручной формовки</a></li>
-                            <li><a href="#">Печной кирпич</a></li>
-                            <li><a href="#">Кирпич с клеймом</a></li>
-                            <li><a href="#">Ригельный кирпич</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="footer-column" aria-label="Кирпич строительный">
-                        <h4 class="footer-title">Кирпич строительный</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Строительный кирпич полнотелый</a></li>
-                            <li><a href="#">Строительный кирпич щелевой</a></li>
-                            <li><a href="#">Шамотный кирпич</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="footer-column" aria-label="Строительные блоки">
-                        <h4 class="footer-title">Строительные блоки</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Керамические блоки</a></li>
-                            <li><a href="#">Блоки Porotherm</a></li>
-                            <li><a href="#">Газосиликатные блоки</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="footer-column" aria-label="Сухие строительные смеси">
-                        <h4 class="footer-title">Сухие строительные смеси</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Кладочный раствор</a></li>
-                            <li><a href="#">Декоративная штукатурка</a></li>
-                            <li><a href="#">Затирка и расшивка</a></li>
-                            <li><a href="#">Клей для плитки</a></li>
-                            <li><a href="#">Смеси для брусчатки</a></li>
-                            <li><a href="#">Смеси для выравнивания пола</a></li>
-                            <li><a href="#">Средство для удаления высолов</a></li>
-                            <li><a href="#">Тёплая кладочная смесь</a></li>
-                            <li><a href="#">Цветная кладочная смесь</a></li>
-                            <li><a href="#">Шпаклевка</a></li>
-                            <li><a href="#">Штукатурки</a></li>
-                        </ul>
-                    </nav>
-                    <div class="footer-column footer-contacts">
-                        <h4 class="footer-title">Контакты</h4>
-                        <div class="footer__contact">
-                            <div class="footer__contact-items">
-                                                        <div class="contact-item">
-                            <svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#mail__black"></use></svg>
-                                                            <div class="contact-text">
-                                
-                                <a href="mailto:ksm495@bk.ru" style="color: #b71c1c;">ksm495@bk.ru</a>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                                                            <svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#gps__black"></use></svg>
-
-                            <div class="contact-text">
-                                <span class="contact-label">Офис:</span> г. Москва, ул. <br>Свободы, д.31, строение 1
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                                                            <svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#gps__black"></use></svg>
-
-                            <div class="contact-text">
-                                <span class="contact-label">Шоурум:</span> г. Москва, <br>Новорижское шоссе 10 км<br> от МКАД, ТК Балтия, <br>павильон Т-4
-                            </div>
-                        </div>
-                            </div>
-                            <div class="footer__contact-block">
-                            <a href="tel:+74951048668" class="footer-phone">+7 (495) 104 86 68</a>
-                            <button class="btn btn-callback" type="button">Заказать звонок</button>
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="payment-methods" aria-label="Способы оплаты">
-                            <img src="src/images/alfa.png" alt="">
-                            <img src="src/images/sber.png" alt="">
-                            <img src="src/images/kiwi.png" alt="">
-                            <img src="src/images/webmoney.png" alt="">
-                            <img src="src/images/visa.png" alt="">
-                            <img src="src/images/masterkard.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="footer-copyright">
-                        <p>2014 - 2026 КСМ495, Все права защищены ©</p>
-                        <nav aria-label="Дополнительная навигация">
-                            <a href="#">Карта сайта</a>
-                            <a href="#">Политика конфиденциальности</a>
-                        </nav>
-                    </div>
-
-                    <div class="footer-logo">
-                        <img src="src/images/footer__logo.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--Scroll section-->
-
-    <section class="left__bar">
-        <div class="left__bar-item"><svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#search"></use></svg></div>
-        <div class="left__bar-item"><svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#burger"></use></svg><span class="nav-title left__bar-title">Меню</span></div>
-        <div class="left__bar-item"><svg class="icon" width="20" height="20"><use href="src/images/sprite.svg#play__in-cube"></use></svg></div>
-    </section>
-
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="wrapper">
+					<div class="header__top-gps">
+						<svg class="icon" width="18" height="22">
+							<use href="src/images/sprite.svg#gps"></use>
+						</svg><a href="#" class="link header__top-link semibold">Москва</a><span class="header__top-adress medium">ул. Свободы, д.31, строение 1</span></div>
+					<div class="header__top-contacts">
+						<div class="header__contact-item">
+							<p class="header__contact-text">Поиск</p>
+							<svg class="icon" width="20" height="20">
+								<use href="src/images/sprite.svg#search"></use>
+							</svg>
+						</div>
+						<div class="header__contact-item"> <a href="mailto:ksm495@bk.ru" class="link medium">ksm495@bk.ru</a>
+							<svg class="icon" width="22" height="18">
+								<use href="src/images/sprite.svg#mail"></use>
+							</svg>
+						</div>
+						<div class="header__contact-item"> <a href="tel:84951048668" class="link semibold">8 (495) 104 86 68</a>
+							<svg class="icon" width="23" height="23">
+								<use href="src/images/sprite.svg#phone"></use>
+							</svg>
+						</div>
+						<div class="header__contact-item">
+							<p class="link semibold">Войти</p>
+							<svg class="icon" width="24" height="24">
+								<use href="src/images/sprite.svg#enter"></use>
+							</svg>
+						</div>
+						<div class="header__contact-item">
+							<p class="link semibold">Сравнение</p>
+							<svg class="icon" width="18" height="22">
+								<use href="src/images/sprite.svg#graph"></use>
+							</svg>
+						</div>
+						<div class="header__contact-item">
+							<p class="link semibold">Корзина</p>
+							<svg class="icon" width="22" height="21">
+								<use href="src/images/sprite.svg#cart"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="wrapper">
+					<a href="/" class="logo"><img src="src/images/logo.svg" alt="" class="logo__image"></a>
+					<nav class="header__bottom-nav"> <a href="#" class="header__nav-link">Кирпич<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a> <a href="#" class="header__nav-link">Стройматериалы<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a> <a href="#" class="header__nav-link">Камины</a> <a href="#" class="header__nav-link">Компания<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a> <a href="#" class="header__nav-link">Архитектура<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a> <a href="#" class="header__nav-link">Контакты<svg class="icon" width="14" height="8"><use href="src/images/sprite.svg#arrow__down"></use></svg></a> </nav>
+				</div>
+			</div>
+		</div>
+		<div class="breadcumber">
+			<div class="container">
+				<div class="wrapper"> <a href="/" class="breadcumber-link">Главная</a><span class="breadcumber-separate">/</span><a href="/" class="breadcumber-link">Выставка кирпича</a><span class="breadcumber-separate">/</span><a href="/" class="breadcumber-link active">Завод "ТАНДЕМ" LS045 Нордъ</a> </div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="hero">
+			<div class="container">
+				<div class="wrapper">
+					<div class="hero__text">
+						<h1 class="title">Премиальные окна <br>и двери из Беларуси</h1>
+						<p class="subtitle">Окна и двери премиального класса под ключ-от замера
+							<br>до монтажа, гарантия до 15 лет.</p>
+						<button class="btn btn--primary">Оставить заявку</button>
+					</div>
+					<div class="hero__image"> <img src="src/images/video.png" alt="" class="video">
+						<div class="btn btn--play">
+							<svg class="icon" width="20" height="20">
+								<use href="src/images/sprite.svg#play"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="more__projects">
+			<div class="container">
+				<div class="wrapper">
+					<div class="more__projects-text">
+						<h2 class="title">Наши работы</h2>
+						<div class="more__project-nav">
+							<button class="btn btn--slider btn--prev">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-prev"></use>
+								</svg>
+							</button>
+							<button class="btn btn--slider btn--next">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-next"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="projects-slider-wrapper">
+						<div class="projects-slider-track">
+							<div class="more__projects-item">
+								<div class="more__project-image"> <img src="src/images/slider-item-1.png" alt="" class="slider-img active"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img">
+									<div class="more__projects-nav">
+										<button class="btn btn--more btn--prev">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__prev"></use>
+											</svg>
+										</button>
+										<button class="btn btn--more btn--next">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__next"></use>
+											</svg>
+										</button>
+									</div>
+									<div class="more__project-dots">
+										<div class="more__projects-dot active"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+									</div>
+								</div>
+								<div class="more__roject-text">
+									<p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
+									<p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
+								</div>
+							</div>
+							<div class="more__projects-item">
+								<div class="more__project-image"> <img src="src/images/slider-item-2.png" alt="" class="slider-img active"> <img src="src/images/slider-item-2.png" alt="" class="slider-img"> <img src="src/images/slider-item-2.png" alt="" class="slider-img"> <img src="src/images/slider-item-2.png" alt="" class="slider-img">
+									<div class="more__projects-nav">
+										<button class="btn btn--more btn--prev">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__prev"></use>
+											</svg>
+										</button>
+										<button class="btn btn--more btn--next">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__next"></use>
+											</svg>
+										</button>
+									</div>
+									<div class="more__project-dots">
+										<div class="more__projects-dot active"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+									</div>
+								</div>
+								<div class="more__roject-text">
+									<p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
+									<p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
+								</div>
+							</div>
+							<div class="more__projects-item">
+								<div class="more__project-image"> <img src="src/images/slider-item-1.png" alt="" class="slider-img active"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img">
+									<div class="more__projects-nav">
+										<button class="btn btn--more btn--prev">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__prev"></use>
+											</svg>
+										</button>
+										<button class="btn btn--more btn--next">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__next"></use>
+											</svg>
+										</button>
+									</div>
+									<div class="more__project-dots">
+										<div class="more__projects-dot active"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+									</div>
+								</div>
+								<div class="more__roject-text">
+									<p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
+									<p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
+								</div>
+							</div>
+							<div class="more__projects-item">
+								<div class="more__project-image"> <img src="src/images/slider-item-1.png" alt="" class="slider-img active"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img"> <img src="src/images/slider-item-1.png" alt="" class="slider-img">
+									<div class="more__projects-nav">
+										<button class="btn btn--more btn--prev">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__prev"></use>
+											</svg>
+										</button>
+										<button class="btn btn--more btn--next">
+											<svg class="icon" width="4" height="6">
+												<use href="src/images/sprite.svg#arrow__next"></use>
+											</svg>
+										</button>
+									</div>
+									<div class="more__project-dots">
+										<div class="more__projects-dot active"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+										<div class="more__projects-dot"></div>
+									</div>
+								</div>
+								<div class="more__roject-text">
+									<p class="title">Завод "ТАНДЕМ" W007 Бородино</p>
+									<p class="subtitle">Завод "ТАНДЕМ" W014 Болдино</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="our__products">
+			<div class="container">
+				<div class="wrapper">
+					<div class="our__text">
+						<h2 class="title">Продукция нашего <br>производства</h2>
+						<p class="subtitle">Полный ассортимент светопрозрачных конструкций: окна, двери, ворота и
+							<br>роллетные системы. Подберём решение под архитектуру вашего объекта.</p>
+					</div>
+					<div class="out__text-image">
+						<div class="out__text-block">
+							<h2 class="title">Строительный кирпич</h2>
+							<button class="btn btn--secondary">К продукции</button>
+						</div>
+						<p class="subtitle">Компания КСМ495 осуществляет коммерческую деятельность в сегменте розничной торговли на территории ТК Балтия и представляет интересы таких заводов производителей строительных материалов: сухие смеси и пазогребневые плиты ТМ Волма, облицовочный кирпич завода "ТАНДЕМ", Керма, Тербунский Гончар, Норский кирпич, Новомосковский рабочий кирпич. Так же компания КСМ495 занимается грузоперевозками, связанные с поставкой и снабжением строительных объектов.</p>
+					</div>
+					<div class="product-slider-wrapper product__grid">
+						<div class="product-slider-viewport">
+							<div class="product-slider-track">
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Облицовочный кирпич</h4>
+										<p class="subtile">(14 товаров)</p>
+									</div>
+								</div>
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Кирпич строительный</h4>
+										<p class="subtile">(14 товаров)</p>
+									</div>
+								</div>
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Строительные блоки</h4>
+										<p class="subtile">(14 товаров)</p>
+									</div>
+								</div>
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Тротуарная плитка</h4>
+										<p class="subtile">(14 товаров)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product__grid-nav">
+							<button class="btn btn--slider btn--prev">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-prev"></use>
+								</svg>
+							</button>
+							<button class="btn btn--slider btn--next">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-next"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="out__text-image">
+						<div class="out__text-block">
+							<h2 class="title">Сухие смеси</h2>
+							<button class="btn btn--secondary">К продукции</button>
+						</div>
+						<p class="subtitle">Компания КСМ495 осуществляет коммерческую деятельность в сегменте розничной торговли на территории ТК Балтия и представляет интересы таких заводов производителей строительных материалов: сухие смеси и пазогребневые плиты ТМ Волма, облицовочный кирпич завода "ТАНДЕМ", Керма, Тербунский Гончар, Норский кирпич, Новомосковский рабочий кирпич. Так же компания КСМ495 занимается грузоперевозками, связанные с поставкой и снабжением строительных объектов.</p>
+					</div>
+					<div class="product-slider-wrapper product__grid">
+						<div class="product-slider-viewport">
+							<div class="product-slider-track">
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Штукатурка</h4>
+										<p class="subtile">(10 товаров)</p>
+									</div>
+								</div>
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Шпатлевка</h4>
+										<p class="subtile">(8 товаров)</p>
+									</div>
+								</div>
+								<div class="product__grid-item">
+									<div class="product__grid-more">
+										<svg class="icon" width="16" height="16">
+											<use href="src/images/sprite.svg#arrow__more"></use>
+										</svg>
+									</div> <img src="src/images/product__grid-image.png" alt="" class="product__grid-image">
+									<div class="product__grid-text">
+										<h4 class="title">Плиточный клей</h4>
+										<p class="subtile">(12 товаров)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product__grid-nav">
+							<button class="btn btn--slider btn--prev">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-prev"></use>
+								</svg>
+							</button>
+							<button class="btn btn--slider btn--next">
+								<svg class="icon" width="6" height="9">
+									<use href="src/images/sprite.svg#arrow__slider-next"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feedback">
+			<div class="container">
+				<div class="wrapper">
+					<div class="feedback__content">
+						<div class="feedback__content-hero">
+							<p class="feedback__hero-text">Обратная связь</p> <img src="src/images/feedback__content.png" alt="" class="feedback__hero-image"> </div>
+						<div class="feedback__content-text">
+							<h2 class="feedback__content-title">Нужна <br>консультация?</h2>
+							<p class="feedback__content-subtitle">Подробно расскажем о наших услугах, видах работ и типовых проектах, рассчитаем стоимость и подготовим индивидуальное предложение!</p>
+							<button class="btn btn--primary">К продукции</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="container">
+				<div class="wrapper">
+					<h2 class="title">Контакты</h2>
+					<div class="contact__grid">
+						<div class="contact__grid-item">
+							<p class="subtitle">Главный офис и выставка</p>
+							<h4 class="title">ТК Балтия, Новорижское ш. 10 км</h4> </div>
+						<div class="contact__grid-item">
+							<p class="subtitle">Режим работы</p>
+							<h4 class="title">Пн-Сб: 10:00-17:00<br>Вс: Выходной</h4> </div>
+						<div class="contact__grid-item">
+							<p class="subtitle">Отдел продаж</p>
+							<h4 class="title">+7 (495) 748-84-89</h4> </div>
+						<div class="contact__grid-item">
+							<p class="subtitle">Почта отдела продаж</p>
+							<h4 class="title">ksm495@bk.ru</h4> </div>
+					</div>
+					<div class="contact__map">
+						<div class="contact__map-block">
+							<div class="contact__text">
+								<h3 class="title">ТК Балтия, Новорижское ш. 10 км</h3>
+								<div class="content__map-text">
+									<p class="subtitle">пн.–сб. с 10:00 до 17:00</p>
+									<p class="subtitle">вс. Выходной</p>
+								</div>
+								<div class="contact__map-title">
+									<h4 class="title">+7 (495) 748-84-89</h4>
+									<h4 class="title">ksm495@bk.ru</h4> </div>
+								<div class="contact__map-nav">
+									<button class="btn btn--contact btn--primary">Построить маршрут</button>
+									<div class="contact__map-icons"><img src="src/images/yandex 1.png" alt=""><img src="src/images/2gis 1.png" alt=""><img src="src/images/google 1.png" alt=""></div>
+								</div>
+							</div> <img src="src/images/contact__map.png" alt="" class="contact__image"> </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feedback">
+			<div class="container">
+				<div class="wrapper">
+					<div class="feedback__content">
+						<div class="feedback__content-hero">
+							<p class="feedback__hero-text">Обратная связь</p> <img src="src/images/feedback__content.png" alt="" class="feedback__hero-image"> </div>
+						<div class="feedback__content-text">
+							<h2 class="feedback__content-title">Нужна <br>консультация?</h2>
+							<p class="feedback__content-subtitle">Подробно расскажем о наших услугах, видах работ и типовых проектах, рассчитаем стоимость и подготовим индивидуальное предложение!</p>
+							<button class="btn btn--primary">К продукции</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			<div class="wrapper">
+				<div class="footer-top">
+					<nav class="footer-column" aria-label="Облицовочный кирпич">
+						<h4 class="footer-title">Облицовочный кирпич</h4>
+						<ul class="footer-list">
+							<li><a href="#">Щелевой кирпич</a></li>
+							<li><a href="#">Клинкерный кирпич</a></li>
+							<li><a href="#">Керамический кирпич</a></li>
+							<li><a href="#">Кирпич ручной работы</a></li>
+							<li><a href="#">Кирпич ручной формовки</a></li>
+							<li><a href="#">Печной кирпич</a></li>
+							<li><a href="#">Кирпич с клеймом</a></li>
+							<li><a href="#">Ригельный кирпич</a></li>
+						</ul>
+					</nav>
+					<nav class="footer-column" aria-label="Кирпич строительный">
+						<h4 class="footer-title">Кирпич строительный</h4>
+						<ul class="footer-list">
+							<li><a href="#">Строительный кирпич полнотелый</a></li>
+							<li><a href="#">Строительный кирпич щелевой</a></li>
+							<li><a href="#">Шамотный кирпич</a></li>
+						</ul>
+					</nav>
+					<nav class="footer-column" aria-label="Строительные блоки">
+						<h4 class="footer-title">Строительные блоки</h4>
+						<ul class="footer-list">
+							<li><a href="#">Керамические блоки</a></li>
+							<li><a href="#">Блоки Porotherm</a></li>
+							<li><a href="#">Газосиликатные блоки</a></li>
+						</ul>
+					</nav>
+					<nav class="footer-column" aria-label="Сухие строительные смеси">
+						<h4 class="footer-title">Сухие строительные смеси</h4>
+						<ul class="footer-list">
+							<li><a href="#">Кладочный раствор</a></li>
+							<li><a href="#">Декоративная штукатурка</a></li>
+							<li><a href="#">Затирка и расшивка</a></li>
+							<li><a href="#">Клей для плитки</a></li>
+							<li><a href="#">Смеси для брусчатки</a></li>
+							<li><a href="#">Смеси для выравнивания пола</a></li>
+							<li><a href="#">Средство для удаления высолов</a></li>
+							<li><a href="#">Тёплая кладочная смесь</a></li>
+							<li><a href="#">Цветная кладочная смесь</a></li>
+							<li><a href="#">Шпаклевка</a></li>
+							<li><a href="#">Штукатурки</a></li>
+						</ul>
+					</nav>
+					<div class="footer-column footer-contacts">
+						<h4 class="footer-title">Контакты</h4>
+						<div class="footer__contact">
+							<div class="footer__contact-items">
+								<div class="contact-item">
+									<svg class="icon" width="16" height="12">
+										<use href="src/images/sprite.svg#mail__black"></use>
+									</svg>
+									<div class="contact-text"> <a href="mailto:ksm495@bk.ru" style="color: #b71c1c;">ksm495@bk.ru</a> </div>
+								</div>
+								<div class="contact-item">
+									<svg class="icon" width="12" height="16">
+										<use href="src/images/sprite.svg#gps__black"></use>
+									</svg>
+									<div class="contact-text"> <span class="contact-label">Офис:</span> г. Москва, ул.
+										<br>Свободы, д.31, строение 1 </div>
+								</div>
+								<div class="contact-item">
+									<svg class="icon" width="12" height="16">
+										<use href="src/images/sprite.svg#gps__black"></use>
+									</svg>
+									<div class="contact-text"> <span class="contact-label">Шоурум:</span> г. Москва,
+										<br>Новорижское шоссе 10 км
+										<br> от МКАД, ТК Балтия,
+										<br>павильон Т-4 </div>
+								</div>
+							</div>
+							<div class="footer__contact-block"> <a href="tel:+74951048668" class="footer-phone">+7 (495) 104 86 68</a>
+								<button class="btn btn-callback" type="button">Заказать звонок</button>
+							</div>
+						</div>
+						<div class="payment-methods" aria-label="Способы оплаты"> <img src="src/images/alfa.png" alt=""> <img src="src/images/sber.png" alt=""> <img src="src/images/kiwi.png" alt=""> <img src="src/images/webmoney.png" alt=""> <img src="src/images/visa.png" alt=""> <img src="src/images/masterkard.png" alt=""> </div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="footer-copyright">
+						<p>2014 - 2026 КСМ495, Все права защищены ©</p>
+						<nav aria-label="Дополнительная навигация"> <a href="#">Карта сайта</a> <a href="#">Политика конфиденциальности</a> </nav>
+					</div>
+					<div class="footer-logo"> <img src="src/images/footer__logo.svg" alt=""> </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section class="left__bar">
+		<div class="left__bar-item">
+			<svg class="icon" width="20" height="20">
+				<use href="src/images/sprite.svg#search"></use>
+			</svg>
+		</div>
+		<div class="left__bar-item">
+			<svg class="icon" width="20" height="20">
+				<use href="src/images/sprite.svg#burger"></use>
+			</svg><span class="nav-title left__bar-title">Меню</span></div>
+		<div class="left__bar-item">
+			<svg class="icon" width="20" height="20">
+				<use href="src/images/sprite.svg#play__in-cube"></use>
+			</svg>
+		</div>
+	</section>
+	<script src="src/scripts/script.js"></script>
 </body>
+
 </html>
