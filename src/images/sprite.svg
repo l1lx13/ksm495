@@ -59,4 +59,19 @@
         <path d="M5.50014 16H16.3294C17.2793 16 17.7543 16 18.1414 15.8284C18.4827 15.6771 18.7748 15.4333 18.9847 15.1246C19.2228 14.7744 19.3078 14.3071 19.4777 13.3724L20.8285 5.94311C20.8874 5.61918 20.9169 5.45721 20.8714 5.33074C20.8315 5.21979 20.7536 5.12651 20.6516 5.06739C20.5353 5 20.3707 5 20.0414 5H4.00014M1 1H2.3164C2.55909 1 2.68044 1 2.77858 1.04433C2.86507 1.0834 2.93867 1.14628 2.99075 1.22563C3.04984 1.31565 3.06876 1.43551 3.10662 1.67523L5.89338 19.3248C5.93124 19.5645 5.95016 19.6844 6.00925 19.7744C6.06133 19.8537 6.13493 19.9166 6.22142 19.9557C6.31956 20 6.44091 20 6.6836 20H18" stroke="#D90031" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
 
+    <symbol id="filter__arrow" width="11" height="6" viewBox="0 0 11 6" fill="none">
+        <path d="M0.75 0.75L5.25 5.25L9.75 0.75" stroke="#2D2D2D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="play" width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M4.51172 3.88916V15.4687L13.6099 9.67892L4.51172 3.88916Z" fill="white"/>
+    </symbol>
+    
+    <symbol id="arrow__slider-prev" width="6" height="9" viewBox="0 0 6 9" fill="none">
+        <path d="M4.94336 0.471436L0.943359 4.47144L4.94336 8.47144" stroke="#343434" stroke-width="1.33333"/>
+    </symbol>
+    
+    <symbol id="arrow__slider-next" width="6" height="9" viewBox="0 0 6 9" fill="none">
+        <path d="M0.470703 0.471436L4.4707 4.47144L0.470703 8.47144" stroke="#F5F5F5" stroke-width="1.33333"/>
+    </symbol>
 </svg>
